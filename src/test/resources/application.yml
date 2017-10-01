@@ -1,0 +1,12 @@
+stubrunner:
+  ids:
+    - com.dkunert:exampleproducent:8091
+  cloud:
+    enabled: false
+  camel:
+    enabled: false
+  work-offline: true
+
+spring.cloud:
+  consul.enabled: false
+  service-registry.enabled: false
